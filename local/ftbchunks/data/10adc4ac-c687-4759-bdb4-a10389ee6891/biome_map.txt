@@ -1,2 +1,0 @@
-#4F8 hbm:crater_outer
-#3DC minecraft:plains
