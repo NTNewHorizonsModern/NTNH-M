@@ -1,0 +1,17 @@
+filename = 'gravitygunneoforge-1.21.1-1.0.0.jar'
+name = 'Gravity Gun (Reforged)'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Gravity Gun NeoForge 1.21.1 v1.0.0'
+
+[download]
+hash = 'a4b526ded41231a87e36725b4cc3c11f1a740337'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8096417
+project-id = 1544424

@@ -1,0 +1,84 @@
+filename = 'wooden-to-flint-tools-1.14-1.21.1-0.1.jar'
+name = 'Wooden to Flint Tools'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.14',
+    '1.14',
+    '1.14.1',
+    '1.14.1',
+    '1.14.2',
+    '1.14.2',
+    '1.14.3',
+    '1.14.3',
+    '1.14.4',
+    '1.14.4',
+    '1.15',
+    '1.15',
+    '1.15.1',
+    '1.15.1',
+    '1.15.2',
+    '1.15.2',
+    '1.16',
+    '1.16',
+    '1.16.1',
+    '1.16.1',
+    '1.16.2',
+    '1.16.2',
+    '1.16.3',
+    '1.16.3',
+    '1.16.4',
+    '1.16.4',
+    '1.16.5',
+    '1.16.5',
+    '1.17',
+    '1.17',
+    '1.17.1',
+    '1.17.1',
+    '1.18',
+    '1.18',
+    '1.18.1',
+    '1.18.1',
+    '1.18.2',
+    '1.18.2',
+    '1.19',
+    '1.19',
+    '1.19.1',
+    '1.19.1',
+    '1.19.2',
+    '1.19.2',
+    '1.19.3',
+    '1.19.3',
+    '1.19.4',
+    '1.19.4',
+    '1.20',
+    '1.20',
+    '1.20.1',
+    '1.20.1',
+    '1.20.2',
+    '1.20.2',
+    '1.20.3',
+    '1.20.3',
+    '1.20.4',
+    '1.20.4',
+    '1.20.5',
+    '1.20.5',
+    '1.20.6',
+    '1.20.6',
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.14-1.21.1-0.1+mod'
+
+[download]
+hash = '2f6dba0271d5cd6293b155068383b27b71daccbc9c74d10592cd8b13c6e719771dd3df7dd753bee5ca51fd054a64303affd9247010df104e1d9aa02a68c25e43'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BGKkZn2T/versions/Gfw4Gldd/wooden-to-flint-tools-1.14-1.21.1-0.1.jar'
+
+[update.modrinth]
+mod-id = 'BGKkZn2T'
+version = 'Gfw4Gldd'

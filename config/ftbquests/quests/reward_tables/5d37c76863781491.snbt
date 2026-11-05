@@ -1,0 +1,24 @@
+{
+	id: "5D37C76863781491"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "42459EFC234A2DD0", item: { components: { "minecraft:rarity": "rare", "silentlib:loot_container": { loot_table: "lootbags:group12" }, "treasurebags:bag_type": "lootbags:type12" }, count: 1, id: "treasurebags:treasure_bag" } }
+		{
+			count: 8
+			id: "175FF57A2E0B4563"
+			item: {
+				components: {
+					"hbm:fluid": "hbm:uf6"
+					"hbm:fluid_amount": 1000
+					"minecraft:dyed_color": {
+						rgb: 13749950
+						show_in_tooltip: 0b
+					}
+				}
+				count: 1
+				id: "hbm:fluid_tank"
+			}
+		}
+	]
+}

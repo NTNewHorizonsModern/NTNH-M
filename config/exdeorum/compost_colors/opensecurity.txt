@@ -1,0 +1,10 @@
+// Compost colors for opensecurity. You may add your own colors, change existing ones, or remove colors that aren't needed.
+cooldown_upgrade, #5c6870
+damage_upgrade, #a58c72
+energy_upgrade, #f5f8da
+mag_card, #b9b2aa
+movement_upgrade, #eed9da
+nanodna, #7fac83
+rfid_card, #dedede
+rfid_reader_card, #ffffff
+secure_door, #ffffff

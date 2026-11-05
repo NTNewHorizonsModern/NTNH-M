@@ -1,0 +1,9 @@
+// Compost colors for carpentersblocks. You may add your own colors, change existing ones, or remove colors that aren't needed.
+carpenters_bed, #cdc8be
+carpenters_chisel, #867a65
+carpenters_door, #dcc89e
+carpenters_flower_pot, #7c6844
+carpenters_hammer, #877d6b
+carpenters_lever, #aa936c
+carpenters_tile, #ffffff
+carpenters_torch, #c2a464

@@ -1,0 +1,180 @@
+[features]
+	#Allow blocks to be applied as covers.
+	enableCovers = true
+	#Allow overlays (grass, snow, web, vine, hay, mycelium) on covered blocks.
+	enableOverlays = true
+	#Allow a different cover on each side of a block.
+	enableSideCovers = true
+	#Allow dyes to color covered blocks.
+	enableDyeColors = true
+	#Allow the chisel to carve designs into covers.
+	enableChiselDesigns = true
+	#Torches extinguish themselves when exposed to rain or snow.
+	enableTorchWeatherEffects = true
+	#Prevent players other than the owner and server operators from editing your objects.
+	#This does not protect objects against destruction, and may allow activation where appropriate.
+	#The Carpenter's Safe is not affected by this.
+	enableOwnership = true
+	#Allow glowstone dust to make blocks give off light.
+	enableIllumination = true
+	#Unobstructed stationary fluid next to a block renders in the block space.
+	#May cause noticeable chunk update lag spikes.
+	enableRoutableFluids = false
+	#Render panes (used in doors, hatches and other blocks) translucent, e.g. for stained glass.
+	enableAlphaPanes = true
+	#Carpenter's blocks with a solid top grow a slope under sloping rails above them.
+	enableRailSlopes = true
+	#Garage doors fill in gaps when barriers beneath them are destroyed.
+	enableGarageDoorVoidFill = true
+	#Ladders can be placed without a supporting block.
+	enableFreeStandingLadders = false
+	#Smoothness of slope faces. 2 looks like stairs; values above 25 are generally fluid.
+	# Default: 2
+	# Range: 1 ~ 64
+	slopeSmoothness = 2
+	#How many blocks can be connected as a single object. Only applies to garage doors.
+	# Default: 500
+	# Range: 1 ~ 100000
+	multiBlockSizeLimit = 500
+
+[blocks]
+	#Register the Carpenter's Barrier.
+	enableBarrier = true
+	#Register the Carpenter's Bed.
+	enableBed = true
+	#Register the Carpenter's Block.
+	enableBlock = true
+	#Register the Carpenter's Button.
+	enableButton = true
+	#Register the Carpenter's Collapsible Block.
+	enableCollapsibleBlock = true
+	#Register the Carpenter's Daylight Sensor.
+	enableDaylightSensor = true
+	#Register the Carpenter's Door.
+	enableDoor = true
+	#Register the Carpenter's Flower Pot.
+	enableFlowerPot = true
+	#Register the Carpenter's Garage Door.
+	enableGarageDoor = true
+	#Register the Carpenter's Gate.
+	enableGate = true
+	#Register the Carpenter's Hatch.
+	enableHatch = true
+	#Register the Carpenter's Ladder.
+	enableLadder = true
+	#Register the Carpenter's Lever.
+	enableLever = true
+	#Register the Carpenter's Pressure Plate.
+	enablePressurePlate = true
+	#Register the Carpenter's Safe.
+	enableSafe = true
+	#Register the Carpenter's Slope.
+	enableSlope = true
+	#Register the Carpenter's Stairs.
+	enableStairs = true
+	#Register the Carpenter's Torch.
+	enableTorch = true
+
+[items]
+	#Register the Carpenter's Hammer.
+	enableHammer = true
+	#Register the Carpenter's Chisel.
+	enableChisel = true
+	#Register the Carpenter's Tile.
+	enableTile = true
+	#Uses before a hammer or chisel breaks.
+	# Default: 400
+	# Range: 1 ~ 100000
+	toolUses = 400
+	#Hammers and chisels take damage when used.
+	toolsDamageable = true
+	#Chance that the hammer takes damage when it rotates or alters a slope.
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	itemHammerDamageChanceFromSlopes = 0.75
+	#Chance that the hammer takes damage when it rotates or alters stairs.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	itemHammerDamageChanceFromStairs = 1.0
+	#Chance that the hammer takes damage when it adjusts a collapsible block.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	itemHammerDamageChanceFromCollapsible = 0.2
+
+[recipe_quantities]
+	#Carpenter's Barrier crafted per recipe.
+	# Default: 4
+	# Range: 1 ~ 64
+	recipeQuantityBarrier = 4
+	#Carpenter's Bed crafted per recipe.
+	# Default: 1
+	# Range: 1 ~ 64
+	recipeQuantityBed = 1
+	#Carpenter's Block crafted per recipe.
+	# Default: 5
+	# Range: 1 ~ 64
+	recipeQuantityBlock = 5
+	#Carpenter's Button crafted per recipe.
+	# Default: 1
+	# Range: 1 ~ 64
+	recipeQuantityButton = 1
+	#Carpenter's Collapsible Block crafted per recipe.
+	# Default: 9
+	# Range: 1 ~ 64
+	recipeQuantityCollapsibleBlock = 9
+	#Carpenter's Daylight Sensor crafted per recipe.
+	# Default: 1
+	# Range: 1 ~ 64
+	recipeQuantityDaylightSensor = 1
+	#Carpenter's Door crafted per recipe.
+	# Default: 1
+	# Range: 1 ~ 64
+	recipeQuantityDoor = 1
+	#Carpenter's Flower Pot crafted per recipe.
+	# Default: 1
+	# Range: 1 ~ 64
+	recipeQuantityFlowerPot = 1
+	#Carpenter's Garage Door crafted per recipe.
+	# Default: 8
+	# Range: 1 ~ 64
+	recipeQuantityGarageDoor = 8
+	#Carpenter's Gate crafted per recipe.
+	# Default: 1
+	# Range: 1 ~ 64
+	recipeQuantityGate = 1
+	#Carpenter's Hatch crafted per recipe.
+	# Default: 1
+	# Range: 1 ~ 64
+	recipeQuantityHatch = 1
+	#Carpenter's Ladder crafted per recipe.
+	# Default: 4
+	# Range: 1 ~ 64
+	recipeQuantityLadder = 4
+	#Carpenter's Lever crafted per recipe.
+	# Default: 1
+	# Range: 1 ~ 64
+	recipeQuantityLever = 1
+	#Carpenter's Pressure Plate crafted per recipe.
+	# Default: 1
+	# Range: 1 ~ 64
+	recipeQuantityPressurePlate = 1
+	#Carpenter's Safe crafted per recipe.
+	# Default: 1
+	# Range: 1 ~ 64
+	recipeQuantitySafe = 1
+	#Carpenter's Slope crafted per recipe.
+	# Default: 6
+	# Range: 1 ~ 64
+	recipeQuantitySlope = 6
+	#Carpenter's Stairs crafted per recipe.
+	# Default: 4
+	# Range: 1 ~ 64
+	recipeQuantityStairs = 4
+	#Carpenter's Torch crafted per recipe.
+	# Default: 8
+	# Range: 1 ~ 64
+	recipeQuantityTorch = 8
+	#Carpenter's Tiles crafted per recipe.
+	# Default: 12
+	# Range: 1 ~ 64
+	recipeQuantityTile = 12

@@ -1,0 +1,26 @@
+// Compost colors for mts. You may add your own colors, change existing ones, or remove colors that aren't needed.
+mts.charger, #a2b2a1
+mts.custombench, #802a2c
+mts.decorbench, #434748
+mts.enginebench, #614622
+mts.fuelhose, #5b5b5b
+mts.fuelpump, #7d525f
+mts.gunbench, #5e6569
+mts.handbook_car, #a4a4a4
+mts.handbook_plane, #969696
+mts.instrumentbench, #aa8a5b
+mts.invisible_seat, #deb56f
+mts.invisible_standing, #deb56f
+mts.invisible_wheel, #deb56f
+mts.itembench, #a1a1a1
+mts.jumpercable, #6e3e55
+mts.jumperpack, #8c6f43
+mts.key, #7a7f80
+mts.partscanner, #3c4646
+mts.propellerbench, #6b8258
+mts.seatbench, #aca5a2
+mts.ticket, #ffffdd
+mts.vehiclebench, #86835c
+mts.wheelbench, #685f51
+mts.wrench, #b5bec3
+mts.y2kbutton, #dda87f

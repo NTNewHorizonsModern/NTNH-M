@@ -1,0 +1,73 @@
+{
+	autofocus_id: "7F2C35B15302D9D2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips_and_tricks"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: {
+		id: "hbm:book_guide_block"
+	}
+	id: "1C33CA70D8E6530E"
+	images: [ ]
+	order_index: 8
+	quest_links: [
+		{
+			id: "479ABD0144CC74F8"
+			linked_quest: "1DEF378DEEC7DC5C"
+			shape: "square"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7246AE8206099C96"
+			linked_quest: "11F31C7FC48FCCFF"
+			shape: "square"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "500DF032F33EDBB6"
+			linked_quest: "1A82FC0322F90D24"
+			shape: "square"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "370A092C2A5B603B"
+			linked_quest: "149574CC52FADE48"
+			shape: "square"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "08A185282F3CC29E"
+			linked_quest: "1E988AB08E35D064"
+			shape: "square"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "78121FAE522BC7D1"
+			linked_quest: "1D722BB05E76CB80"
+			shape: "square"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "1CE66F11D5282376"
+			linked_quest: "148EC0A09562DAB7"
+			shape: "square"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "7F2C35B15302D9D2"
+			linked_quest: "10379B60934B5F5A"
+			shape: "square"
+			x: -1.0d
+			y: 4.0d
+		}
+	]
+	quests: [ ]
+}

@@ -1,0 +1,17 @@
+filename = 'Immersive Vehicles-1.21.1-24.0.0.jar'
+name = 'Immersive Vehicles (MTS)'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Immersive Vehicles-1.21.1-24.0.0'
+
+[download]
+hash = '7050a332f18d390610029de28c13fb6139786607'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7926606
+project-id = 286703

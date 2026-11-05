@@ -1,0 +1,18 @@
+{
+  "group": "NTNH",
+  "visible": true,
+  "display_name": {
+    "text": "Breeder Reactor Kit"
+  },
+  "loot_table": "lootbags:group3114",
+  "rarity": "rare",
+  "bag_color": "#78866B",
+  "bag_overlay_color": "#ED1B2E",
+  "bag_string_color": "#808080",
+  "drops_from_groups": [
+    "peaceful",
+    "hostile",
+    "boss",
+    "player"
+  ]
+}

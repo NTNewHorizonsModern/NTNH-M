@@ -1,0 +1,17 @@
+filename = 'openfm-neoforge-1.21.1-0.0.4.jar'
+name = 'OpenFM'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'openfm-neoforge-1.21.1-0.0.4.jar'
+
+[download]
+hash = '33a1868ea1d0b39b673c0f6e3f7399e40a21b9c7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8555115
+project-id = 236839

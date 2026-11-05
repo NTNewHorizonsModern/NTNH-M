@@ -1,0 +1,17 @@
+filename = 'opencomputers-1.9.4-5.jar'
+name = 'OpenComputers: Rebooted'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'OpenComputers v1.9.4-5'
+
+[download]
+hash = '9a57f44604ea327bbe4d53c9fd37cdf87adfbf7d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8858759
+project-id = 1634364

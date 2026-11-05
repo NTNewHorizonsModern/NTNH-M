@@ -1,0 +1,11 @@
+// Compost colors for wands. You may add your own colors, change existing ones, or remove colors that aren't needed.
+copper_wand, #9e6f4e
+creative_wand, #f489c8
+diamond_wand, #5b987a
+iron_wand, #a09784
+magic_bag_1, #7c6caa
+magic_bag_2, #d78a3d
+magic_bag_3, #cc80d3
+netherite_wand, #735a52
+palette, #735219
+stone_wand, #847a66

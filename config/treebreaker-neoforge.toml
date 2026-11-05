@@ -1,0 +1,26 @@
+#Enables or disables TreeBreaker.
+enabled = true
+#Lets sneaking players break only one block normally.
+sneakToDisable = true
+#Requires nearby leaves to avoid breaking log structures by mistake.
+requireLeaves = true
+#Finds diagonally connected logs, such as acacia branches.
+searchDiagonally = true
+#Finds connected logs below the broken block when chopping from the middle or top.
+searchDownward = true
+#Breaks nearby leaves after the tree is felled.
+breakLeaves = true
+#Keeps persistent leaves placed by players.
+onlyNaturalLeaves = true
+#Maximum number of logs that can be broken at once.
+# Default: 256
+# Range: 2 ~ 2048
+maxLogs = 256
+#Block radius around logs to search for leaves to break.
+# Default: 5
+# Range: 1 ~ 12
+leafBreakRadius = 5
+#Maximum number of leaves that can be broken at once.
+# Default: 512
+# Range: 0 ~ 4096
+maxLeaves = 512

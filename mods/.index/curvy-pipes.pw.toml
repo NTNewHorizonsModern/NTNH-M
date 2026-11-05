@@ -1,0 +1,17 @@
+filename = 'curvy_pipes-1.21.1-1.15.10.jar'
+name = 'Curvy Pipes'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.15.10'
+
+[download]
+hash = '26f0e17ff9b5e7163397b50db4125a0619caf9dfee4343eb3f415fa2857bd8731f114252c81996b1563d78693de1f7dd2787af6f4f6d45295b6be70dd46d4966'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Ns4fCzXQ/versions/GHB9bBEt/curvy_pipes-1.21.1-1.15.10.jar'
+
+[update.modrinth]
+mod-id = 'Ns4fCzXQ'
+version = 'GHB9bBEt'

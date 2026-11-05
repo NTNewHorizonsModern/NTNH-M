@@ -1,0 +1,2461 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv35__space_age"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: {
+		id: "hbm:machine_satlink"
+	}
+	id: "1AAFA4CDA1C2D85F"
+	images: [ ]
+	order_index: 3
+	quest_links: [
+		{
+			id: "46455EFD1EF2C55B"
+			linked_quest: "1D72E846B4557074"
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			id: "3E3FAAAC17013FC0"
+			linked_quest: "1FE28712872298AC"
+			x: 7.5d
+			y: 18.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"11D7CC7535CE2A5E"
+				"111FE781EAE3E25C"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:dish_control"
+			}
+			id: "18E842E523922CCA"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "14828A7DA6391F96"
+				item: { count: 1, id: "ntmspace:dish_control" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"128CDD11DDB9CA43"
+				"1843EA856B6FD6E9"
+				"148EC0A09562DAB7"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:oxy_plss"
+			}
+			id: "1F35037770E8878E"
+			tasks: [
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "11F3AD417BF687F0"
+					item: { count: 1, id: "ntmspace:oxy_plss" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1A45679B32D08781"
+					item: { count: 1, id: "ntmspace:heavy_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"128CDD11DDB9CA43"
+				"1843EA856B6FD6E9"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "19B673B6BF82EBE8"
+			size: 3.0d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "14608999EA5BC16D"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1843EA856B6FD6E9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:machine_stardar"
+			}
+			id: "11D7CC7535CE2A5E"
+			rewards: [{
+				id: "15FDDFDAB04EB741"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group72"
+						}
+						"treasurebags:bag_type": "lootbags:type72"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "19E40789257E322E"
+					item: { count: 1, id: "ntmspace:machine_drive_processor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1B5C3C1B87CC4C8F"
+					item: { count: 1, id: "ntmspace:hard_drive" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1782E0C6A0842598"
+					item: { count: 1, id: "ntmspace:machine_stardar" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1AE165D3C9B2904A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:launch_pad_rocket"
+			}
+			id: "137BCC2C5A54599A"
+			rewards: [{
+				id: "1E2C847EF8741965"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group310"
+						}
+						"treasurebags:bag_type": "lootbags:type310"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1A331E72DDC98A44"
+					item: { count: 1, id: "ntmspace:machine_rocket_assembly" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1AD3C8C034AFBA83"
+					item: { count: 1, id: "ntmspace:launch_pad_rocket" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BCAE9E5FA92A6E7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:machine_alkylation"
+			}
+			id: "142F52C6EAEEC1C4"
+			rewards: [{
+				id: "1B1B483A24AE5C0F"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group222"
+						}
+						"treasurebags:bag_type": "lootbags:type222"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "198671265FA2B6BE"
+				item: { count: 1, id: "ntmspace:machine_alkylation" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"137BCC2C5A54599A"
+				"11D7CC7535CE2A5E"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:rp_c_20"
+			}
+			id: "121D07E889595F99"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "126BA604E9CF4FC2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BCAE9E5FA92A6E7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:hydrobay"
+			}
+			id: "1235CEBDDFF2530A"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1C2FB9624EFB019B"
+				item: { count: 1, id: "ntmspace:hydrobay" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"121D07E889595F99"
+				"1F35037770E8878E"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "hbm:moon_turf"
+			}
+			id: "19EB29D5C9EC62D8"
+			rewards: [{
+				id: "197A3501BEB41C42"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group310"
+						}
+						"treasurebags:bag_type": "lootbags:type310"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					dimension: "ntmspace:mun"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					icon: {
+						id: "hbm:moon_turf"
+					}
+					id: "1D782AC7667DD7B4"
+					optional_task: true
+					type: "dimension"
+				}
+				{
+					dimension: "ntmspace:minmus"
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					icon: {
+						id: "ntmspace:minmus_smooth"
+					}
+					id: "1F087E843B1EA591"
+					optional_task: true
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10A12703B53E8D3F"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:ingot_stainless"
+			}
+			id: "1BCAE9E5FA92A6E7"
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "17DDBAAF029FA99F"
+				item: { count: 1, id: "ntmspace:ingot_stainless" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BCAE9E5FA92A6E7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:machine_solar"
+			}
+			id: "1423D9BD65BD7C4E"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "10BBAEC41DEDC7E9"
+				item: { count: 1, id: "ntmspace:machine_solar" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19EB29D5C9EC62D8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:transporter_rocket"
+			}
+			id: "1D34CDBC26BFF5BE"
+			tasks: [
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "16F9A7BB9DA06988"
+					item: { count: 1, id: "ntmspace:transporter_rocket" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "19545461AC4D7C7D"
+					item: { count: 1, id: "ntmspace:transporter_linker" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19EB29D5C9EC62D8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				components: {
+					"hbm:fluid_identifier": {
+						primary: "ntmspace:brine"
+						secondary: "minecraft:empty"
+					}
+					"hbm:fluid_multi": {
+						bookmarks: [ ]
+						fluid1: "ntmspace:brine"
+					}
+					"minecraft:dyed_color": {
+						rgb: 13739838
+						show_in_tooltip: 0b
+					}
+				}
+				id: "hbm:fluid_identifier_multi"
+			}
+			id: "10A12703B53E8D3F"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "132AA635494A2FB8"
+				item: { components: { "hbm:fluid": "ntmspace:brine", "hbm:fluid_amount": 1000, "minecraft:dyed_color": { rgb: 13739838, show_in_tooltip: 0b } }, count: 1, id: "hbm:fluid_tank" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BCAE9E5FA92A6E7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:machine_radiator"
+			}
+			id: "180E85F0A746EF54"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1352B82117DCF557"
+				item: { count: 1, id: "ntmspace:machine_radiator" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BCAE9E5FA92A6E7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:air_scrubber"
+			}
+			id: "1EA587D90CC0D8B5"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "19136DAA4954B229"
+				item: { count: 1, id: "ntmspace:air_scrubber" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BCAE9E5FA92A6E7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:atmosphere_scanner"
+			}
+			id: "10766FD76F8EBC44"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "13BC0EC738AAB154"
+				item: { count: 1, id: "ntmspace:atmosphere_scanner" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19EB29D5C9EC62D8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:machine_vacuum_circuit"
+			}
+			id: "158C3E4560D27092"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1474C114FC2B0766"
+				item: { count: 1, id: "ntmspace:machine_vacuum_circuit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19EB29D5C9EC62D8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:entity_moon_cow_spawn_egg"
+			}
+			id: "1FBC21D9A76F590E"
+			rewards: [{
+				count: 8
+				id: "182ED3C119AC65B4"
+				item: {
+					count: 1
+					id: "pamhc2foodcore:beefjerkyitem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ntmspace:entity_moon_cow"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "11C63FF682410334"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1FBC21D9A76F590E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "hbm:cheese"
+			}
+			id: "171C12C9C2AC110F"
+			rewards: [{
+				count: 10
+				id: "1960DE044EAFA977"
+				item: {
+					count: 1
+					id: "hbm:cheese_quesadilla"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1A0E6B4182DB97BB"
+				item: { count: 1, id: "hbm:cheese" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1A2AC0CA7433073F"
+				"1BCAE9E5FA92A6E7"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:rp_sc_20"
+			}
+			id: "1B84DA25309DF7B0"
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "171E677F4F00B2CA"
+				item: { count: 1, id: "ntmspace:rp_sc_20" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["158C3E4560D27092"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:circuit_processt1"
+			}
+			id: "154CE1240E041B94"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1D64D5A959A6D11B"
+				item: { count: 1, id: "ntmspace:circuit_processt1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["154CE1240E041B94"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:ike_regolith"
+			}
+			id: "177148EEE61F79E9"
+			rewards: [{
+				id: "10D098D167BCE57D"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group310"
+						}
+						"treasurebags:bag_type": "lootbags:type310"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "ntmspace:ike"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: {
+					id: "ntmspace:ike_regolith"
+				}
+				id: "1F88139E5820EEB0"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["154CE1240E041B94"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:moho_stone"
+			}
+			id: "13FB49C33C15B448"
+			rewards: [{
+				id: "1FD2776C68548616"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group312"
+						}
+						"treasurebags:bag_type": "lootbags:type312"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "ntmspace:moho"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: {
+					id: "ntmspace:moho_stone"
+				}
+				id: "19D0C0E8E613E9F0"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["154CE1240E041B94"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:duna_sands"
+			}
+			id: "19D6D944CF0F707A"
+			rewards: [{
+				id: "1AFE9EE9A8D640C2"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group310"
+						}
+						"treasurebags:bag_type": "lootbags:type310"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "ntmspace:duna"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: {
+					id: "ntmspace:duna_sands"
+				}
+				id: "1FF38EBCAE0784EF"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"19D6D944CF0F707A"
+				"13FB49C33C15B448"
+			]
+			dependency_requirement: "one_completed"
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:orbital_station_computer"
+			}
+			id: "1F9246C573F28F0C"
+			tasks: [
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "12B80D2AC4B5942F"
+					item: { count: 1, id: "ntmspace:orbital_station_computer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "19EBEEBF0D0AA068"
+					item: { components: { "ftbquests:missing_item": "hbm:tile_machine_xenon_thruster" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E5E412B7517C5F1"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "hbm:volcano_core_static_extinguishing"
+			}
+			id: "1996D29A454AE962"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "19DE304EBD4E0FF3"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1D72E846B4557074"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "hbm:missile_volcano"
+			}
+			id: "1E5E412B7517C5F1"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "179BCFED24B07B5B"
+				item: { count: 1, id: "hbm:missile_volcano" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"177148EEE61F79E9"
+				"13FB49C33C15B448"
+			]
+			dependency_requirement: "one_completed"
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:nugget_gaas"
+			}
+			id: "1260C4922D63F74C"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1DDC1D12ADB91D80"
+				item: { count: 1, id: "ntmspace:nugget_gaas" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1260C4922D63F74C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:machine_magma"
+			}
+			id: "1F7F6B4EC351642D"
+			rewards: [{
+				id: "1262ACAEA3ACBB73"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group192"
+						}
+						"treasurebags:bag_type": "lootbags:type192"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "11D3CF8B0121722B"
+					item: { count: 1, id: "ntmspace:machine_magma" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1A4D41620A0B90A1"
+					item: { count: 1, id: "ntmspace:ingot_magma" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"1A2AC0CA7433073F"
+				"19208529C0044179"
+				"1B84DA25309DF7B0"
+				"1F9246C573F28F0C"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:orbital_station_port"
+			}
+			id: "152F828FD36DEC33"
+			rewards: [{
+				id: "1126618F7F22C196"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group310"
+						}
+						"treasurebags:bag_type": "lootbags:type310"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "10088C490C9130A2"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1996D29A454AE962"]
+			dependency_requirement: "one_completed"
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "hbm:gem_volcanic"
+			}
+			id: "19FFAAEA46C93543"
+			rewards: [{
+				id: "1AB5838B2C2739DE"
+				table_data: {
+					loot_size: 1
+					rewards: [
+						{ id: "1BB8BC5282907B17", item: { components: { "ftbquests:missing_item": "enhancedlootbags:lootbag" }, count: 1, id: "ftbquests:missing_item" } }
+						{ id: "11E15F50201044EA", item: { components: { "ftbquests:missing_item": "enhancedlootbags:lootbag" }, count: 1, id: "ftbquests:missing_item" } }
+					]
+				}
+				table_id: -1L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "115D459F0F7C7566"
+				item: { count: 1, id: "hbm:gem_volcanic" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1260C4922D63F74C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:circuit_processt2"
+			}
+			id: "195A1B38A29613AF"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "16598F82FF5AC2E8"
+				item: { count: 1, id: "ntmspace:circuit_processt2" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: 12.0d
+		}
+		{
+			dependencies: ["11BEEB2C1D872BF5"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:rp_pod_20"
+			}
+			id: "19208529C0044179"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1AF9AE05BDC31E76"
+				item: { count: 1, id: "ntmspace:rp_pod_20" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["195A1B38A29613AF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:dres_rock"
+			}
+			id: "12177EF6475C7B91"
+			rewards: [{
+				id: "1F6CC9A3404FE42E"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group310"
+						}
+						"treasurebags:bag_type": "lootbags:type310"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "ntmspace:dres"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: {
+					id: "ntmspace:dres_rock"
+				}
+				id: "1B989B659028C9D9"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"19EBC43CA3F7E2DC"
+				"195A1B38A29613AF"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:eve_silt"
+			}
+			id: "138672EC33099524"
+			rewards: [{
+				id: "113B88844B1772ED"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group310"
+						}
+						"treasurebags:bag_type": "lootbags:type310"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "ntmspace:eve"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: {
+					id: "ntmspace:eve_silt"
+				}
+				id: "13CFC0F8DA0E327F"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1BCAE9E5FA92A6E7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:machine_atmo_vent"
+			}
+			id: "1BBC7FA8D31D1FA8"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "176ED2235AF10EB2"
+				item: { count: 1, id: "ntmspace:machine_atmo_vent" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1BBC7FA8D31D1FA8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:machine_atmo_tower"
+			}
+			id: "129DA7B3D4FC6EB0"
+			rewards: [{
+				id: "14276AC0B77357B8"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group311"
+						}
+						"treasurebags:bag_type": "lootbags:type311"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1576663C6905070D"
+				item: { count: 1, id: "ntmspace:machine_atmo_tower" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1BB26449680A844F"]
+			dependency_requirement: "one_completed"
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				components: {
+					"ftbquests:icon": "hbm:items/achievement_icon.digammaupontop"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1293D0E9C727F2F3"
+			rewards: [{
+				id: "130D50F3BD59783B"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group312"
+						}
+						"treasurebags:bag_type": "lootbags:type312"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "160B2089C02FF2AC"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1DEAF4AF8B3B372A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:dyson_converter_anatmogenesis"
+			}
+			id: "1BB26449680A844F"
+			rewards: [{
+				id: "19359EF9471E3A8E"
+				item: {
+					components: {
+						"ftbquests:missing_item": "amazingtrophies:trophy"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "169B4EB6BD42EEF1"
+				item: { count: 1, id: "ntmspace:dyson_converter_anatmogenesis" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"12798C8517E00117"
+				"1BCAE9E5FA92A6E7"
+				"1310167A06AF8303"
+				"101E16B80F3B2D1E"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:swarm_member"
+			}
+			id: "1DEAF4AF8B3B372A"
+			rewards: [{
+				id: "1CEE3EA0B9587951"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group310"
+						}
+						"treasurebags:bag_type": "lootbags:type310"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1B74037AA451832B"
+					item: { count: 1, id: "ntmspace:swarm_member" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1C0F16171F7A9E8E"
+					item: { count: 1, id: "ntmspace:dyson_launcher" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1E1F9EC5B4CD2B95"
+					item: { count: 1, id: "ntmspace:dyson_receiver" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "13CFD0AA74B5AE2A"
+					item: { count: 1, id: "ntmspace:dyson_converter_he" }
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1D53E5827E320873"
+					item: { count: 1, id: "ntmspace:sat_dyson_relay" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["12177EF6475C7B91"]
+			dependency_requirement: "one_completed"
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:nugget_hafnium"
+			}
+			id: "101E16B80F3B2D1E"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "111956E94ADC5CE5"
+				item: { count: 1, id: "ntmspace:nugget_hafnium" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: 16.0d
+		}
+		{
+			dependencies: ["162CEDB1FAD34702"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				components: {
+					"hbm:fluid_identifier": {
+						primary: "ntmspace:hydrazine"
+						secondary: "minecraft:empty"
+					}
+					"hbm:fluid_multi": {
+						bookmarks: [ ]
+						fluid1: "ntmspace:hydrazine"
+					}
+					"minecraft:dyed_color": {
+						rgb: 3232125
+						show_in_tooltip: 0b
+					}
+				}
+				id: "hbm:fluid_identifier_multi"
+			}
+			id: "11BEEB2C1D872BF5"
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1B3C6C1514E57651"
+				item: { components: { "hbm:fluid": "ntmspace:hydrazine", "hbm:fluid_amount": 1000, "minecraft:dyed_color": { rgb: 3232125, show_in_tooltip: 0b } }, count: 1, id: "hbm:fluid_tank" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["1BBC7FA8D31D1FA8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:machine_cryo_distill"
+			}
+			id: "162CEDB1FAD34702"
+			rewards: [{
+				id: "1CBC084805606E48"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group311"
+						}
+						"treasurebags:bag_type": "lootbags:type311"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1BD4DFFB5F9B9157"
+				item: { count: 1, id: "ntmspace:machine_cryo_distill" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"1D087FE98E04A431"
+				"148EC0A09562DAB7"
+				"162CEDB1FAD34702"
+				"1532FDB5C13D2798"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:insert_cmb"
+			}
+			id: "19EBC43CA3F7E2DC"
+			tasks: [
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1A83C9775B3B1B18"
+					item: { count: 1, id: "ntmspace:insert_cmb" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "12AB86E2F936AEC8"
+					item: { count: 1, id: "ntmspace:gas_dock" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1428943087D73C2B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:rubber_silt"
+			}
+			id: "1EA5C2328A243F9D"
+			rewards: [{
+				id: "10D3282A51E799A2"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group12"
+						}
+						"treasurebags:bag_type": "lootbags:type12"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "ntmspace:tekto"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: {
+					id: "ntmspace:rubber_silt"
+				}
+				id: "1B824AC563670052"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["1428943087D73C2B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:laythe_silt"
+			}
+			id: "1D087FE98E04A431"
+			rewards: [{
+				id: "1A5D0250BEB01677"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group310"
+						}
+						"treasurebags:bag_type": "lootbags:type310"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				dimension: "ntmspace:laythe"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: {
+					id: "ntmspace:laythe_silt"
+				}
+				id: "1A2C4B4B3E7FE3EE"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["101E16B80F3B2D1E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:circuit_processt3"
+			}
+			id: "1428943087D73C2B"
+			size: 1.0d
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1A875A3C198F4D9C"
+				item: { count: 1, id: "ntmspace:circuit_processt3" }
+				type: "item"
+			}]
+			x: -1.25d
+			y: 21.0d
+		}
+		{
+			dependencies: ["1D087FE98E04A431"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:green_wool"
+			}
+			id: "1F37B19A8C14A45C"
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1A199800CBE77553"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"1D087FE98E04A431"
+				"1BCAE9E5FA92A6E7"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:algae_film"
+			}
+			id: "1E4A94D1B54C2B24"
+			tasks: [
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1E520B03D10932ED"
+					item: { count: 1, id: "ntmspace:algae_film" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1B8E4D630B21BFCF"
+					item: { count: 1, id: "ntmspace:air_scrubber" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["1F37B19A8C14A45C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "ntmspace:gas_dock"
+			}
+			id: "1AC24BC1D0B38101"
+			rewards: [{
+				id: "1F1C9364EB12C21C"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"silentlib:loot_container": {
+							loot_table: "lootbags:group311"
+						}
+						"treasurebags:bag_type": "lootbags:type311"
+					}
+					count: 1
+					id: "treasurebags:treasure_bag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "12EED07E67A435C9"
+				item: { count: 1, id: "ntmspace:gas_dock" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 23.0d
+		}
+	]
+}

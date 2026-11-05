@@ -1,0 +1,6 @@
+// Compost colors for lootbags. You may add your own colors, change existing ones, or remove colors that aren't needed.
+common_loot_bag, #ffffff
+epic_loot_bag, #b643e4
+legendary_loot_bag, #ffd944
+rare_loot_bag, #6f86e0
+uncommon_loot_bag, #90ae1f

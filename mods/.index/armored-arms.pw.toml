@@ -1,0 +1,17 @@
+filename = 'ArmoredArms-v1.0.0-1.21.1-neoforge-betta.jar'
+name = 'Armored Arms'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'v1.0.0-1.21.1-neoforge-betta'
+
+[download]
+hash = 'e651bd5248075196455abffe8c944df089c2b77a91dd546af6afe8a2c75bbf8c70e4aaa465aaa3772bd8732388fe3a7e5dfc3352826a13c2cfdece029d53c88f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/utfvkRlv/versions/rFI0Pa8s/ArmoredArms-v1.0.0-1.21.1-neoforge-betta.jar'
+
+[update.modrinth]
+mod-id = 'utfvkRlv'
+version = 'rFI0Pa8s'

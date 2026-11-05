@@ -1,0 +1,17 @@
+filename = 'ultraterraforged-1.0.3+1.21.1-neoforge.jar'
+name = 'UltraTerraForged'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'UltraTerraForged 1.0.3+1.21.1 NeoForge'
+
+[download]
+hash = '67c4861baf21c6af52f88eccf1485ebc59189e75'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9301603
+project-id = 1715379

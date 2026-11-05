@@ -1,0 +1,22 @@
+// Compost colors for ags_modernmarkings. You may add your own colors, change existing ones, or remove colors that aren't needed.
+chalk, #ffffff
+wall_marking_voltage_eu, #ffffff
+wall_marking_voltage_ev, #ffffff
+wall_marking_voltage_fe, #ffffff
+wall_marking_voltage_hv, #ffffff
+wall_marking_voltage_iv, #ffffff
+wall_marking_voltage_luv, #ffffff
+wall_marking_voltage_lv, #ffffff
+wall_marking_voltage_max, #ffffff
+wall_marking_voltage_mv, #f2ffff
+wall_marking_voltage_pert, #ffffff
+wall_marking_voltage_rf, #ffcdc5
+wall_marking_voltage_steam, #ffffde
+wall_marking_voltage_uev, #dedede
+wall_marking_voltage_uhv, #ffffff
+wall_marking_voltage_uiv, #fafafa
+wall_marking_voltage_ulv, #ffffde
+wall_marking_voltage_umv, #ffffff
+wall_marking_voltage_uv, #f4f5ff
+wall_marking_voltage_uxv, #ffffff
+wall_marking_voltage_zpm, #e1e1e1

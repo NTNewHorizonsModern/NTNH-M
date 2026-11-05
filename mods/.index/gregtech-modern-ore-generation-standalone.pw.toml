@@ -1,0 +1,17 @@
+filename = 'gtmogs-1.21.1-1.0.6.jar'
+name = 'GregTech Modern Ore Generation: Standalone'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'GTMOGS 1.0.6'
+
+[download]
+hash = '8b8dbd6fff2048de6771a756ce58b7039101e8b0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7059530
+project-id = 1340111

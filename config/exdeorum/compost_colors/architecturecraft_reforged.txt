@@ -1,0 +1,7 @@
+// Compost colors for architecturecraft_reforged. You may add your own colors, change existing ones, or remove colors that aren't needed.
+architect_tool, #98dad7
+chisel, #91e3ff
+hammer, #9ddcff
+large_pulley, #a2bbd3
+multitool, #98dad7
+sawblade, #beffff

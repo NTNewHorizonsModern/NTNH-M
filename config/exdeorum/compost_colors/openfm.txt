@@ -1,0 +1,3 @@
+// Compost colors for openfm. You may add your own colors, change existing ones, or remove colors that aren't needed.
+memory_card, #201800
+tuner, #797979

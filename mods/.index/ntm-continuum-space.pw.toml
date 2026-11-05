@@ -1,0 +1,17 @@
+filename = 'ntmspace-neoforge-1.0.1-1.21.1.jar'
+name = 'NTM: Space'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'NTM: Space 1.0.1 (NeoForge 1.21.1)'
+
+[download]
+hash = '4542d9ca07498adac115312483bbf273346d0945'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9413380
+project-id = 1754149

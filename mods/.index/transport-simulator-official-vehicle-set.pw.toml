@@ -1,0 +1,17 @@
+filename = 'MTS Official Pack-1.21.1-V29.jar'
+name = 'Immersive Vehicles (MTS/IV) - Official Content Pack - [OCP] - Planes, Cars, Helicopters & More!'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MTS Official Pack-1.21.1-V29'
+
+[download]
+hash = '7e7cc4389379cdb7addc1bb29ff1700099cee5bb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7933734
+project-id = 292217

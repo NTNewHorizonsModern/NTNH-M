@@ -1,0 +1,16 @@
+{
+	id: "64DCD9F3259E3D0F"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 16
+			id: "0C2D593A14E4BB4A"
+			item: {
+				count: 1
+				id: "hbm:billet_silicon"
+			}
+		}
+		{ id: "2E362C8A0FBBB92A", item: { components: { "minecraft:rarity": "uncommon", "silentlib:loot_container": { loot_table: "lootbags:group71" }, "treasurebags:bag_type": "lootbags:type71" }, count: 1, id: "treasurebags:treasure_bag" } }
+	]
+}

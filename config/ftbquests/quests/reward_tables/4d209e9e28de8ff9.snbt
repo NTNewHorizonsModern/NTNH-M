@@ -1,0 +1,9 @@
+{
+	id: "4D209E9E28DE8FF9"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "66444AE5A75DCFFB", item: { components: { "minecraft:rarity": "uncommon", "silentlib:loot_container": { loot_table: "lootbags:group191" }, "treasurebags:bag_type": "lootbags:type191" }, count: 1, id: "treasurebags:treasure_bag" } }
+		{ id: "5E5794F7D3C4CD3B", item: { count: 1, id: "hbm:desh_pickaxe" } }
+	]
+}

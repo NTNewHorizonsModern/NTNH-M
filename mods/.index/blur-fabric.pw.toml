@@ -1,0 +1,17 @@
+filename = 'blur-neoforge-6.3.1+1.21.1.jar'
+name = 'Blur+'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Blur+ 6.3.1 - Neoforge 1.21.1'
+
+[download]
+hash = '5e70c05c8233e72a0a5647c72355b46b11711029'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8339814
+project-id = 393563

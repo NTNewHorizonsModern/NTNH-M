@@ -1,0 +1,1136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kill_all_the_things"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: {
+		id: "hbm:gun_n_i_4_n_i"
+	}
+	id: "10472A19D0BE2DB6"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14B3F3CBDD44B1B9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:magma_cream"
+			}
+			id: "17F8BC902CCF6BD9"
+			rewards: [{
+				count: 16
+				id: "1C7F90DC1D1A3F0C"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "11C7786228649DE2"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14B3F3CBDD44B1B9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:gold_nugget"
+			}
+			id: "1A1C0CEBD9224C0D"
+			rewards: [{
+				count: 64
+				id: "15EDC1A5ECAF3394"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "15F783671AB65546"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:infested_cracked_stone_bricks"
+			}
+			id: "1F62AB4D8C9DF1EF"
+			rewards: [{
+				count: 16
+				id: "1707480D78E9C0D5"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:silverfish"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "13FBD0C47631B4C5"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:creeper_head"
+			}
+			id: "15579FA7A501BBCD"
+			rewards: [{
+				count: 16
+				id: "1C2574F767F6238B"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "13652E18AFDB27E5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "165D09DA90F1ACD2"
+			rewards: [{
+				count: 64
+				id: "129B77A68172C83E"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1D55B7CE2F5F5D7C"
+				type: "kill"
+				value: 4L
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "1C82F8ADB3945E4E"
+			rewards: [{
+				count: 16
+				id: "14D5D418D41D623A"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1CBEF6929358248C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:ink_sac"
+			}
+			id: "18EE7DE020F84DBC"
+			rewards: [{
+				count: 8
+				id: "1946CDDAC3D6CEB1"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:squid"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "15A290C68AE0A62F"
+				type: "kill"
+				value: 10L
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:leather"
+			}
+			id: "195DCE0E926A5675"
+			rewards: [{
+				count: 8
+				id: "17F5DBDBDDF802A0"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cow"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1841AB0D11EE4C30"
+				type: "kill"
+				value: 20L
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14A3CDC3DA189131"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "155BC9D06D378648"
+			preset: "goal"
+			rewards: [{
+				count: 128
+				id: "12588C2E328C733A"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1E31D7A97DC6A439"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"19DAD995AD453134"
+				"112A2356FF3746F1"
+				"18CDACB190D27DA7"
+			]
+			dependency_requirement: "one_completed"
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "hbm:coin_maskman"
+			}
+			id: "1682E1F78D40C0F5"
+			preset: "goal"
+			rewards: [
+				{
+					count: 512
+					id: "10A7ACF7AB7B364F"
+					item: {
+						count: 1
+						id: "hbm:cap_nuka"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D679FC5B79C81C8"
+					item: {
+						components: {
+							"minecraft:rarity": "rare"
+							"silentlib:loot_container": {
+								loot_table: "lootbags:group12"
+							}
+							"treasurebags:bag_type": "lootbags:type12"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "hbm:entity_mob_mask_man"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "64F084458672CF3D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1682E1F78D40C0F5"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: false
+			icon: {
+				id: "hbm:coin_worm"
+			}
+			id: "14CE9C57F7AA5BE9"
+			preset: "goal"
+			rewards: [
+				{
+					count: 1024
+					id: "16E62C0D183948B2"
+					item: {
+						count: 1
+						id: "hbm:cap_nuka"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "155BEC3289B52926"
+					item: {
+						components: {
+							"minecraft:rarity": "rare"
+							"silentlib:loot_container": {
+								loot_table: "lootbags:group102"
+							}
+							"treasurebags:bag_type": "lootbags:type102"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "hbm:entity_balls_o_tron"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1C44B6C6CC98671E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1E9DF41EA718D1DC"
+				"14CE9C57F7AA5BE9"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "hbm:coin_ufo"
+			}
+			id: "102DF16DD9F21E94"
+			preset: "goal"
+			rewards: [
+				{
+					count: 2056
+					id: "13721E9F3EAB6987"
+					item: {
+						count: 1
+						id: "hbm:cap_nuka"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "13534E7C8DBEF0E4"
+					item: {
+						components: {
+							"minecraft:rarity": "rare"
+							"silentlib:loot_container": {
+								loot_table: "lootbags:group312"
+							}
+							"treasurebags:bag_type": "lootbags:type312"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "hbm:entity_ufo"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1082EA6FDC32934D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14B3F3CBDD44B1B9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "14A3CDC3DA189131"
+			rewards: [{
+				count: 32
+				id: "180BB396C9ED91E5"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "114766849A205648"
+				nbt_filter: "{AbsorptionAmount: 0.0d,Air: 300,AttackTime: 0,Attributes: [{Base: 20.0d,Name: \"generic.maxHealth\"},{Base: 0.0d,Name: \"generic.knockbackResistance\"},{Base: 0.25d,Name: \"generic.movementSpeed\"},{Base: 16.0d,Name: \"generic.followRange\"},{Base: 2.0d,Name: \"generic.attackDamage\"}],BookshelfData: {BookshelfBuff: []},CanPickUpLoot: 0,CustomName: \"\",CustomNameVisible: 0,DeathTime: 0,Dimension: 0,DropChances: [0.085d,0.085d,0.085d,0.085d,0.085d],Equipment: [{},{},{},{},{}],FallDistance: 0.0d,Fire: 0,HbmLivingProps: {hfr_activation: 0.0d,hfr_asbestos: 0,hfr_balefire: 0,hfr_blackfire: 0,hfr_blacklung: 0,hfr_bomb: 0,hfr_cont_count: 0,hfr_contagion: 0,hfr_digamma: 0.0d,hfr_fire: 0,hfr_gravity: 0,hfr_oil: 0,hfr_oxygen: 100,hfr_phosphorus: 0,hfr_radiation: 0.0d},HealF: 20.0d,Health: 20,HurtTime: 0,Invulnerable: 0,Leashed: 0,Motion: [0.0d,0.0d,0.0d],OnGround: 0,PersistenceRequired: 0,PortalCooldown: 0,Pos: [0.0d,0.0d,0.0d],Rotation: [3.5318677d,0.0d],SkeletonType: 1,UUIDLeast: -6872909113026646967,UUIDMost: -1717444003513155250,id: \"Skeleton\"}"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "12E9393F5917BBE9"
+			rewards: [{
+				count: 8
+				id: "1306AA22AAF71C1D"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:chicken"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "18F6BC42038EC52A"
+				type: "kill"
+				value: 20L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:white_wool"
+			}
+			id: "1CBDE43D6872421D"
+			rewards: [{
+				count: 8
+				id: "1EE543AF8CABE7E5"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:sheep"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1B64716529FBFE2B"
+				type: "kill"
+				value: 20L
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14B3F3CBDD44B1B9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "1CF8B411E574DE10"
+			rewards: [{
+				count: 32
+				id: "1DA52AB2600B4ECA"
+				item: {
+					components: {
+						"ftbquests:missing_item": "hbm:item_cap_nuka"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "15A6D265E8D626FD"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14B3F3CBDD44B1B9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:ghast_tear"
+			}
+			id: "117117CAB5B1035D"
+			rewards: [{
+				count: 64
+				id: "1CCA7616EEE069FF"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ghast"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "10A5B8531610E0C4"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:zombie_head"
+			}
+			id: "1AA445F3BD99827B"
+			rewards: [{
+				count: 16
+				id: "1A184AC662553D08"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1D35C005B61F68F4"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "1698ED691DFF3D06"
+			rewards: [{
+				count: 16
+				id: "17025A15A6BBBAB6"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1E4ACAEE8C14EAE3"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:witch_spawn_egg"
+			}
+			id: "1C64246D0553436F"
+			rewards: [{
+				count: 64
+				id: "1EC32127101B71BC"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:witch"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "114CBF60A40B6B3F"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:slime_ball"
+			}
+			id: "1A2030E39FD87D2A"
+			rewards: [{
+				count: 32
+				id: "102BBA7012F5E7C5"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1CF902BD0EA17EEC"
+				type: "kill"
+				value: 25L
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["151411F4648B6033"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:porkchop"
+			}
+			id: "1F9B5162A6991E61"
+			rewards: [{
+				count: 8
+				id: "1ABB05A451902020"
+				item: {
+					count: 1
+					id: "hbm:cap_nuka"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pig"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1AF887CDD1E287A1"
+				type: "kill"
+				value: 10L
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"195DCE0E926A5675"
+				"1A1C0CEBD9224C0D"
+				"18EE7DE020F84DBC"
+				"1698ED691DFF3D06"
+				"1C82F8ADB3945E4E"
+				"155BC9D06D378648"
+				"117117CAB5B1035D"
+				"1C64246D0553436F"
+				"165D09DA90F1ACD2"
+				"1CF8B411E574DE10"
+				"12E9393F5917BBE9"
+				"1CBDE43D6872421D"
+				"1A2030E39FD87D2A"
+				"15579FA7A501BBCD"
+				"14A3CDC3DA189131"
+				"1AA445F3BD99827B"
+				"1F9B5162A6991E61"
+				"102DF16DD9F21E94"
+				"1F62AB4D8C9DF1EF"
+				"17F8BC902CCF6BD9"
+				"14CE9C57F7AA5BE9"
+			]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "opencomputers:block/overlay/disassembler_top_on"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "19B9E1C2879CB99E"
+			preset: "goal"
+			rewards: [
+				{
+					count: 2056
+					id: "1C3EC179FACAA414"
+					item: {
+						count: 1
+						id: "hbm:cap_nuka"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "180CD91157C7B814"
+					item: {
+						components: {
+							"minecraft:rarity": "rare"
+							"silentlib:loot_container": {
+								loot_table: "lootbags:group102"
+							}
+							"treasurebags:bag_type": "lootbags:type102"
+						}
+						count: 1
+						id: "treasurebags:treasure_bag"
+					}
+					type: "item"
+				}
+				{
+					id: "1D6AACB828B4998A"
+					item: {
+						count: 1
+						id: "ntmspace:v1"
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.5d
+		}
+	]
+}

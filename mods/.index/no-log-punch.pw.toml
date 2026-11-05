@@ -1,0 +1,17 @@
+filename = 'nologpunch-1.21.1-2.0.1.jar'
+name = 'No tree punching Flint Tool'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'nologpunch 1.21.1-2.0.1'
+
+[download]
+hash = '63f49a29ac24007d194677dfcce1f78006bd03f5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8147549
+project-id = 463775

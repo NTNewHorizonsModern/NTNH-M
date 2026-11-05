@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"hbm:ajr_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"hbm:drone_patrol","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

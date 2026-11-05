@@ -1,0 +1,17 @@
+filename = 'appliedcooking-6.2.1.jar'
+name = 'Applied Cooking'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'appliedcooking-6.2.1.jar'
+
+[download]
+hash = '768e7cd2715cb3e0da1f279cce7b36db43811a9d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8528851
+project-id = 689579
