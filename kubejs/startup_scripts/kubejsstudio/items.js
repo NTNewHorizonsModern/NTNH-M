@@ -1,0 +1,5 @@
+// kubejsstudio registry additions; re-apply merges by id
+StartupEvents.registry('item', event => {
+    event.create('kubejs:flint_pickaxe', 'pickaxe').displayName('Flint Pickaxe').texture('minecraft:item/wooden_pickaxe').maxStackSize(1).maxDamage(200).tier('wood').attackDamageBaseline(1).speedBaseline(-2.8)
+    event.create('kubejs:flint_hatchet', 'axe').displayName('Flint Hatchet').texture('minecraft:item/wooden_axe').maxStackSize(1).maxDamage(60).tier('wood').attackDamageBaseline(4).speedBaseline(-2.8)
+})

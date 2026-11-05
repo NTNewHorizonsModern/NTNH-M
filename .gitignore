@@ -1,15 +1,16 @@
-backups/
-logs/
-crash-reports/
-saves/
-screenshots/
-scripts/
+/backups/
+/logs/
+/crash-reports/
+/saves/
+/screenshots/
+/scripts/
+/local/
 
 
-kubejsstudio/
-downloads/
-XaeroWaypoints*/
-xaero/
+/kubejsstudio/
+/downloads/
+/XaeroWaypoints*/
+/xaero/
 
 usercache.json
 usernamecache.json
