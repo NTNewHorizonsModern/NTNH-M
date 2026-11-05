@@ -1,0 +1,16 @@
+{
+  "item": {
+    "minecraft:wooden_axe": {
+      "key": "item.minecraft.wooden_axe",
+      "name": "Кремниевый топор"
+    },
+    "minecraft:wooden_shovel": {
+      "key": "item.minecraft.wooden_shovel",
+      "name": "Кремниевая лопата"
+    },
+    "minecraft:wooden_pickaxe": {
+      "key": "item.minecraft.wooden_pickaxe",
+      "name": "Кремниевая кирка"
+    }
+  }
+}
