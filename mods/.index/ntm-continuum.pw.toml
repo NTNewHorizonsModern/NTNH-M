@@ -1,17 +1,17 @@
-filename = 'hbm-neoforge-1.0.4-1.21.1.jar'
+filename = 'hbm-neoforge-1.0.5-1.21.1.jar'
 name = 'NTM - Continuum'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'NTM - Continuum 1.0.4 (NeoForge 1.21.1)'
+x-prismlauncher-version-number = 'NTM - Continuum 1.0.5 (NeoForge 1.21.1)'
 
 [download]
-hash = 'fd47cf35af1c9f2e79c0d807982739adf5549ecc'
+hash = 'a1d4727ef6ac0c600b8169f51751ddf07a9c416d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9413348
+file-id = 9524060
 project-id = 1719328

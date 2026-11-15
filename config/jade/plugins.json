@@ -94,6 +94,10 @@
   "balm": {
     "jade": true
   },
+  "functionalstorage": {
+    "armory": true,
+    "drawer": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,

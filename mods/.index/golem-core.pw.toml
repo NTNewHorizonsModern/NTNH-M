@@ -1,17 +1,17 @@
-filename = 'golemcore-neoforge-1.0.4-1.21.1.jar'
+filename = 'golemcore-neoforge-1.0.5-1.21.1.jar'
 name = 'Golem Core'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Golem Core 1.0.4 (NeoForge 1.21.1)'
+x-prismlauncher-version-number = 'Golem Core 1.0.5 (NeoForge 1.21.1)'
 
 [download]
-hash = '45b8252e13b3bc29afa36c1c0999d8b3b5eb80d0'
+hash = '2bd42331b57469265303a799de27e47a189a6e2e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9413309
+file-id = 9523847
 project-id = 1719361

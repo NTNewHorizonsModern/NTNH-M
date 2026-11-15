@@ -1534,18 +1534,6 @@
 		"§2It is recommended that an Effectiveness 3 upgrade is installed on the Acidizer to increase the chance of not consuming the Fullerene, as fullerite can be expensive to produce large quantities."
 	]
 	quest.1AFC270B71E88DB6.title: "Crystalline Fullerite"
-	quest.1B10C9D819AA3067.quest_desc: [
-		"Three mods overhaul farming and food in this pack."
-		""
-		"§dPam's HarvestCraft§r adds 40+ crops, many fruit trees, 10 fish, beekeeping, and 75+ foods. Key blocks: §3Presser§r (produces oils, honey, etc.), §3Market§r (buys seeds and saplings for emeralds), §3Shipping Block§r (sells crops for emeralds). Right-clicking a mature crop harvests and replants it."
-		""
-		"§dAgriCraft§r adds genetics-based crop breeding. Plants have six stats - Growth, Gain, Strength, Resistance, Fertility, and Mutativity - inherited from parent crops when cross-breeding. Higher stats are dominant. Mutations can unlock new crop species entirely. Weeds will compete with and eventually kill unmanaged crops. Plants have specific soil, light, and fluid requirements, so placement matters."
-		""
-		"§dHunger Overhaul§r requires farmland to be placed adjacent to water - untouched dry tilled soil will not function."
-		""
-		"§2Note that the crops should be planted on the Crop Sticks."
-	]
-	quest.1B10C9D819AA3067.title: "Agriculture and Farming"
 	quest.1B1FAF6B95238232.quest_desc: ["The §6Yharonite Billet§r is created in a tungsten crate that has §6Polonium Billets§r in it while being shot from a §3DFC Emitter§r. This is the final material obtained in the mod."]
 	quest.1B1FAF6B95238232.title: "Yharonite Billet"
 	quest.1B2E3C6470F548C0.quest_desc: [
@@ -2120,20 +2108,6 @@
 	quest.1EFC19737593AB7D.title: "Starmetal"
 	quest.1F09B697D9EEF23B.quest_desc: ["The §3Steel Furnace§r, unlike the other furnaces, runs off of §eTU§r. It can also process up to 3 items at a time, but each slot consumes more TU, which makes it slow without a strong heat source. It also has a bonus output for ores and wood, where every smelted item gives §e25%§r to the bonus output meter, which means every 4 items give an extra 5th item for free (§e+15 items from a single stack§r)."]
 	quest.1F09B697D9EEF23B.title: "Steel Furnace"
-	quest.1F2E4A4B330C11BC.quest_desc: [
-		"§dHunger Overhaul§r makes hunger a genuine threat rather than a mild inconvenience."
-		""
-		"Hunger now drains passively over time, even while idle. Reaching zero kills you instantly. Low hunger inflicts slowness, weakness, and reduced mining speed before that point. Eating grants a §6Well Fed§r effect that boosts health regeneration - the larger the meal, the longer it lasts."
-		""
-		"Food values are re-balanced by meal size. Raw ingredients restore very little; prepared meals restore substantially more. Larger meals take longer to eat and stack less in your inventory."
-		""
-		"Crops only grow during daytime and take much longer to mature. Wood and stone hoes are removed - you need at least an iron hoe to till soil. Farmland must be placed adjacent to water or it will not function."
-		""
-		"§dSpice of Life: Carrot Edition§r rewards dietary variety. Each unique food eaten for the first time permanently increases your maximum health. Eating the same food repeatedly provides no bonus."
-		""
-		"§2The more diverse your diet, the more hearts you have - build a varied farm as early as possible.§r"
-	]
-	quest.1F2E4A4B330C11BC.title: "Hunger System"
 	quest.1F321F03B106834D.quest_desc: ["Now, as you have a better anvil, you can start §erecycling§r some stuff you may found in dungeons."]
 	quest.1F321F03B106834D.title: "Recycling"
 	quest.1F32BA07059CE534.quest_desc: [
