@@ -3,11 +3,9 @@
   "multilingualItemSearch": true,
   "removableDefaultLanguage": false,
   "fallbacks": [
-    "ru_ru"
-  ],
-  "previousFallbacks": [
     "en_us"
   ],
-  "language": "en_us",
-  "previousLanguage": "ru_ru"
+  "previousFallbacks": [],
+  "language": "ru_ru",
+  "previousLanguage": "en_us"
 }
