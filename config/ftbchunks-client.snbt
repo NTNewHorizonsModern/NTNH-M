@@ -138,33 +138,33 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:bee": true
-			"minecraft:villager": true
-			"minecraft:squid": true
-			"minecraft:fox": true
-			"minecraft:wolf": true
-			"minecraft:witch": true
-			"minecraft:sheep": true
-			"minecraft:bat": true
-			"hbm:entity_mob_volatile_creeper": true
-			"minecraft:enderman": true
-			"minecraft:chicken": true
-			"minecraft:camel": true
-			"minecraft:skeleton": true
-			"minecraft:spider": true
-			"minecraft:glow_squid": true
-			"minecraft:drowned": true
-			"minecraft:salmon": false
-			"minecraft:creeper": true
-			"minecraft:polar_bear": true
-			"hbm:entity_mob_phosgene_creeper": true
-			"minecraft:cat": true
-			"minecraft:rabbit": true
-			"minecraft:iron_golem": true
-			"minecraft:slime": true
-			"minecraft:zombie": true
-			"minecraft:cow": true
 			"minecraft:pig": true
+			"minecraft:villager": true
+			"minecraft:slime": true
+			"minecraft:salmon": false
+			"minecraft:drowned": true
+			"minecraft:iron_golem": true
+			"minecraft:enderman": true
+			"minecraft:bat": true
+			"minecraft:polar_bear": true
+			"hbm:entity_mob_volatile_creeper": true
+			"minecraft:wolf": true
+			"minecraft:creeper": true
+			"minecraft:squid": true
+			"minecraft:glow_squid": true
+			"minecraft:rabbit": true
+			"minecraft:cat": true
+			"minecraft:bee": true
+			"minecraft:cow": true
+			"minecraft:skeleton": true
+			"minecraft:witch": true
+			"hbm:entity_mob_phosgene_creeper": true
+			"minecraft:camel": true
+			"minecraft:sheep": true
+			"minecraft:zombie": true
+			"minecraft:fox": true
+			"minecraft:spider": true
+			"minecraft:chicken": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

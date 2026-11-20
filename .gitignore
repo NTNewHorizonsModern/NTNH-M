@@ -6,18 +6,25 @@
 /scripts/
 /local/
 /shaderpacks/
-
-
+/immersive_paintings_cache/
 
 /kubejsstudio/
 /downloads/
 /XaeroWaypoints*/
 /xaero/
 
+/config/iris.properties
+/config/neiaddon/
+/config/kubejsstudio.json
+/config/ftbchunks-client.snbt
+/config/fabric/indigo-renderer.properties
+/config/drippyloadingscreen/early_window_reference.properties
+
 usercache.json
 usernamecache.json
 command_history.txt
 emi.json
 banned-players.json
+
 
 *.log

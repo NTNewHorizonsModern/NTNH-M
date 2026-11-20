@@ -932,8 +932,8 @@ ServerEvents.generateData('after_mods', event => {
         "consumption": 120,
         "toppings": [
           {"ingredient":"hbm:ingot_polymer","count":1},
-          {"ingredient":"hbm:circuit_pcb","count":1},
-          {"ingredient":"minecraft:redstone","count":4}]
+          {"ingredient":"minecraft:redstone","count":4}],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
       }
     )
 })
@@ -948,8 +948,9 @@ ServerEvents.generateData('after_mods', event => {
         "consumption": 200,
         "toppings": [
           {"ingredient":"opencomputers:chip1","count":1},
-          {"ingredient":"opencomputers:cu","count":1},
-          {"ingredient":"hbm:circuit_pcb","count":1}]
+          {"ingredient":"opencomputers:cu","count":1}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
       }
     )
 })
@@ -964,8 +965,9 @@ ServerEvents.generateData('after_mods', event => {
         "consumption": 200,
         "toppings": [
           {"ingredient":"opencomputers:chip2","count":1},
-          {"ingredient":"opencomputers:cu","count":1},
-          {"ingredient":"hbm:circuit_pcb","count":1}]
+          {"ingredient":"opencomputers:cu","count":1}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
       }
     )
 })
@@ -980,8 +982,9 @@ ServerEvents.generateData('after_mods', event => {
         "consumption": 200,
         "toppings": [
           {"ingredient":"opencomputers:chip3","count":1},
-          {"ingredient":"opencomputers:cu","count":1},
-          {"ingredient":"hbm:circuit_pcb","count":1}]
+          {"ingredient":"opencomputers:cu","count":1}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
       }
     )
 })
@@ -997,8 +1000,9 @@ ServerEvents.generateData('after_mods', event => {
         "consumption": 200,
         "toppings": [
           {"ingredient":"opencomputers:chip4","count":1},
-          {"ingredient":"opencomputers:cu","count":1},
-          {"ingredient":"hbm:circuit_pcb","count":1}]
+          {"ingredient":"opencomputers:cu","count":1}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
       }
     )
 })
@@ -1202,9 +1206,10 @@ ServerEvents.generateData('after_mods', event => {
         "duration": 100,
         "consumption": 150,
         "toppings": [
-          {"ingredient":"hbm:circuit_pcb","count":1},
           {"ingredient":"opencomputers:disk","count":3},
-          {"ingredient":"opencomputers:chip1","count":2}]
+          {"ingredient":"opencomputers:chip1","count":2}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
       }
     )
 })
@@ -1218,9 +1223,10 @@ ServerEvents.generateData('after_mods', event => {
         "duration": 100,
         "consumption": 150,
         "toppings": [
-          {"ingredient":"hbm:circuit_pcb","count":1},
           {"ingredient":"opencomputers:disk","count":3},
-          {"ingredient":"opencomputers:chip2","count":2}]
+          {"ingredient":"opencomputers:chip2","count":2}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
       }
     )
 })
@@ -1235,9 +1241,10 @@ ServerEvents.generateData('after_mods', event => {
         "duration": 100,
         "consumption": 150,
         "toppings": [
-          {"ingredient":"hbm:circuit_pcb","count":1},
           {"ingredient":"opencomputers:disk","count":3},
-          {"ingredient":"opencomputers:chip4","count":2}]
+          {"ingredient":"opencomputers:chip4","count":2}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
       }
     )
 })
@@ -1251,9 +1258,10 @@ ServerEvents.generateData('after_mods', event => {
         "duration": 100,
         "consumption": 150,
         "toppings": [
-          {"ingredient":"hbm:circuit_pcb","count":1},
           {"ingredient":"opencomputers:disk","count":3},
-          {"ingredient":"opencomputers:chip3","count":2}]
+          {"ingredient":"opencomputers:chip3","count":2}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
       }
     )
 })
@@ -1475,17 +1483,17 @@ ServerEvents.generateData('after_mods', event => {
 // kubejsstudio custom: opencomputers:chip1
 ServerEvents.generateData('after_mods', event => {
     event.json(
-      'opencomputers:recipe/chip2',
+      'opencomputers:recipe/chip1',
       {
         "type": "hbm:soldering",
-        "output": {"id":"opencomputers:chip2","count":4},
-        "duration": 120,
-        "consumption": 200,
+        "output": {"id":"opencomputers:chip1","count":8},
         "toppings": [
           {"ingredient":"minecraft:redstone","count":4},
-          {"ingredient":"opencomputers:chip1","count":8},
+          {"ingredient":"hbm:circuit_silicon","count":1},
           {"ingredient":"opencomputers:transistor","count":4}
-          ]
+        ],
+        "duration": 120,
+        "consumption": 200
       }
     )
 })
@@ -1550,8 +1558,9 @@ ServerEvents.generateData('after_mods', event => {
         "consumption": 200,
         "toppings": [
           {"ingredient":"minecraft:redstone_block","count":1},
-          {"ingredient":"opencomputers:chip1","count":1},
-          {"ingredient":"hbm:circuit_pcb","count":1}]
+          {"ingredient":"opencomputers:chip1","count":1}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
       }
     )
 })
@@ -1566,8 +1575,9 @@ ServerEvents.generateData('after_mods', event => {
         "consumption": 200,
         "toppings": [
           {"ingredient":"minecraft:redstone_block","count":1},
-          {"ingredient":"opencomputers:chip2","count":1},
-          {"ingredient":"hbm:circuit_pcb","count":1}]
+          {"ingredient":"opencomputers:chip2","count":1}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
       }
     )
 })
@@ -1582,8 +1592,9 @@ ServerEvents.generateData('after_mods', event => {
         "consumption": 200,
         "toppings": [
           {"ingredient":"minecraft:redstone_block","count":1},
-          {"ingredient":"opencomputers:chip3","count":1},
-          {"ingredient":"hbm:circuit_pcb","count":1}]
+          {"ingredient":"opencomputers:chip3","count":1}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
       }
     )
 })
@@ -1974,4 +1985,610 @@ ServerEvents.recipes(event => {
       'opencomputers:screen4',
       ['opencomputers:frontflatscreen4']
     ).id('kubejsstudio:screen4')
+})
+// kubejsstudio custom: ae2:network/blocks/storage_drive
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/blocks/storage_drive',
+      {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "pattern": ["#A#","B B","#A#"],
+        "key": {
+          "#": {"item":"hbm:plate_cast_steel"},
+          "A": {"item":"ae2:engineering_processor"},
+          "B": {"item":"ae2:fluix_glass_cable"}
+        },
+        "result": {"id":"ae2:drive","count":1}
+      }
+    )
+})
+// kubejsstudio custom: ae2:tools/network_memory_card
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/tools/network_memory_card',
+      {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "pattern": ["#AA","BCB"],
+        "key": {
+          "#": {"item":"ae2:calculation_processor"},
+          "A": {"tag":"c:ingots/steel"},
+          "B": {"tag":"c:ingots/gold"},
+          "C": {"tag":"c:dusts/redstone"}
+        },
+        "result": {"id":"ae2:memory_card","count":1}
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/view_cell
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/view_cell',
+      {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "pattern": ["#A#","ABA","CCC"],
+        "key": {
+          "#": {"item":"ae2:quartz_glass"},
+          "A": {"tag":"c:dusts/redstone"},
+          "B": {"tag":"ae2:all_certus_quartz"},
+          "C": {"tag":"c:ingots/steel"}
+        },
+        "result": {"id":"ae2:view_cell","count":1}
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/item_storage_cell_1k
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/item_storage_cell_1k',
+      {
+        "type": "hbm:arc_welder",
+        "output": {"id":"ae2:item_storage_cell_1k","count":1},
+        "ingredients": [
+          {"ingredient":"ae2:item_cell_housing","count":1},
+          {"ingredient":"ae2:cell_component_1k","count":1}
+        ],
+        "duration": 200,
+        "consumption": 250
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/item_storage_cell_4k
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/item_storage_cell_4k',
+      {
+        "type": "hbm:arc_welder",
+        "output": {"id":"ae2:item_storage_cell_4k","count":1},
+        "ingredients": [
+          {"ingredient":"ae2:item_cell_housing","count":1},
+          {"ingredient":"ae2:cell_component_4k","count":1}
+        ],
+        "duration": 250,
+        "consumption": 400
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/item_storage_cell_16k
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/item_storage_cell_16k',
+      {
+        "type": "hbm:arc_welder",
+        "output": {"id":"ae2:item_storage_cell_16k","count":1},
+        "ingredients": [
+          {"ingredient":"ae2:item_cell_housing","count":1},
+          {"ingredient":"ae2:cell_component_16k","count":1}
+        ],
+        "duration": 300,
+        "consumption": 600
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/item_storage_cell_64k
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/item_storage_cell_64k',
+      {
+        "type": "hbm:arc_welder",
+        "output": {"id":"ae2:item_storage_cell_64k","count":1},
+        "ingredients": [
+          {"ingredient":"ae2:item_cell_housing","count":1},
+          {"ingredient":"ae2:cell_component_64k","count":1}
+        ],
+        "duration": 350,
+        "consumption": 1000
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/item_storage_cell_256k
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/item_storage_cell_256k',
+      {
+        "type": "hbm:arc_welder",
+        "output": {"id":"ae2:item_storage_cell_256k","count":1},
+        "ingredients": [
+          {"ingredient":"ae2:item_cell_housing","count":1},
+          {"ingredient":"ae2:cell_component_256k","count":1}
+        ],
+        "duration": 400,
+        "consumption": 1500
+      }
+    )
+})
+// kubejsstudio custom: megacells:cells/standard/item_storage_cell_1m
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'megacells:recipe/cells/standard/item_storage_cell_1m',
+      {
+        "type": "hbm:arc_welder",
+        "output": {"id":"megacells:item_storage_cell_1m","count":1},
+        "ingredients": [
+          {"ingredient":"megacells:mega_item_cell_housing","count":1},
+          {"ingredient":"megacells:cell_component_1m","count":1}
+        ],
+        "duration": 450,
+        "consumption": 1800
+      }
+    )
+})
+// kubejsstudio custom: megacells:cells/standard/item_storage_cell_4m
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'megacells:recipe/cells/standard/item_storage_cell_4m',
+      {
+        "type": "hbm:arc_welder",
+        "output": {"id":"megacells:item_storage_cell_4m","count":1},
+        "ingredients": [
+          {"ingredient":"megacells:mega_item_cell_housing","count":1},
+          {"ingredient":"megacells:cell_component_4m","count":1}
+        ],
+        "duration": 500,
+        "consumption": 2500
+      }
+    )
+})
+// kubejsstudio custom: megacells:cells/standard/item_storage_cell_16m
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'megacells:recipe/cells/standard/item_storage_cell_16m',
+      {
+        "type": "hbm:arc_welder",
+        "output": {"id":"megacells:item_storage_cell_16m","count":1},
+        "ingredients": [
+          {"ingredient":"megacells:mega_item_cell_housing","count":1},
+          {"ingredient":"megacells:cell_component_16m","count":1}
+        ],
+        "duration": 550,
+        "consumption": 2500
+      }
+    )
+})
+// kubejsstudio custom: megacells:cells/standard/item_storage_cell_64m
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'megacells:recipe/cells/standard/item_storage_cell_64m',
+      {
+        "type": "hbm:arc_welder",
+        "output": {"id":"megacells:item_storage_cell_64m","count":1},
+        "ingredients": [
+          {"ingredient":"megacells:mega_item_cell_housing","count":1},
+          {"ingredient":"megacells:cell_component_64m","count":1}
+        ],
+        "duration": 600,
+        "consumption": 3000
+      }
+    )
+})
+// kubejsstudio custom: megacells:cells/standard/item_storage_cell_256m
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'megacells:recipe/cells/standard/item_storage_cell_256m',
+      {
+        "type": "hbm:arc_welder",
+        "output": {"id":"megacells:item_storage_cell_256m","count":1},
+        "ingredients": [
+          {"ingredient":"megacells:mega_item_cell_housing","count":1},
+          {"ingredient":"megacells:cell_component_256m","count":1}
+        ],
+        "duration": 650,
+        "consumption": 3500
+      }
+    )
+})
+// kubejsstudio custom: megacells:cells/standard/bulk_item_cell
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'megacells:recipe/cells/standard/bulk_item_cell',
+      {
+        "type": "hbm:arc_welder",
+        "output": {"id":"megacells:bulk_item_cell","count":1},
+        "ingredients": [
+          {"ingredient":"megacells:mega_item_cell_housing","count":1},
+          {"ingredient":"megacells:bulk_cell_component","count":1}
+        ],
+        "duration": 600,
+        "consumption": 40000
+      }
+    )
+})
+// kubejsstudio custom: megacells:crafting/bulk_cell_component
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'megacells:recipe/crafting/bulk_cell_component',
+      {
+        "type": "hbm:soldering",
+        "output": "megacells:bulk_cell_component",
+        "duration": 200,
+        "consumption": 250,
+        "toppings": [
+          {"ingredient":"hbm:circuit_controller","count":1},
+          {"ingredient":"megacells:cell_component_256m","count":1},
+          {"ingredient":"hbm:singularity_spark","count":1}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":64}]
+      }
+    )
+})
+// kubejsstudio custom: opencomputers:ssd1
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'opencomputers:recipe/ssd1',
+      {
+        "type": "hbm:soldering",
+        "output": "opencomputers:ssd1",
+        "duration": 200,
+        "consumption": 300,
+        "toppings": [
+          {"ingredient":"opencomputers:cpu1","count":1},
+          {"ingredient":"opencomputers:chip2","count":5}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
+      }
+    )
+})
+// kubejsstudio custom: opencomputers:ssd2
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'opencomputers:recipe/ssd2',
+      {
+        "type": "hbm:soldering",
+        "output": "opencomputers:ssd2",
+        "duration": 250,
+        "consumption": 400,
+        "toppings": [
+          {"ingredient":"opencomputers:cpu1","count":1},
+          {"ingredient":"opencomputers:chip3","count":5}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
+      }
+    )
+})
+// kubejsstudio custom: opencomputers:ssd3
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'opencomputers:recipe/ssd3',
+      {
+        "neoforge:conditions": [{"type":"opencomputers:tier4_enabled"}],
+        "type": "hbm:soldering",
+        "output": "opencomputers:ssd3",
+        "duration": 300,
+        "consumption": 500,
+        "toppings": [
+          {"ingredient":"opencomputers:cpu1","count":1},
+          {"ingredient":"opencomputers:chip4","count":5}
+        ],
+        "pcb": [{"ingredient":"hbm:circuit_pcb","count":1}]
+      }
+    )
+})
+// kubejsstudio custom: opencomputers:document_printer
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'opencomputers:recipe/document_printer',
+      {
+        "type": "hbm:assembly_machine",
+        "name": "PrinterDoc",
+        "input_items": [
+          {"ingredient":"ntnhm:case","count":1},
+          {"ingredient":"opencomputers:chip1","count":2},
+          {"ingredient":"hbm:part_generic_piston_hydraulic","count":1},
+          {"ingredient":"#c:ingots/steel","count":7}
+        ],
+        "output_items": ["opencomputers:document_printer"],
+        "duration": 200,
+        "power": 100
+      }
+    )
+})
+// kubejsstudio custom: opencomputers:shredder
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'opencomputers:recipe/shredder',
+      {
+        "type": "hbm:assembly_machine",
+        "name": "Shredder",
+        "input_items": [
+          {"ingredient":"ntnhm:case","count":1},
+          {"ingredient":"opencomputers:chip1","count":1},
+          {"ingredient":"minecraft:shears","count":1},
+          {"ingredient":"#c:ingots/steel","count":4},
+          {"ingredient":"hbm:part_generic_piston_hydraulic","count":1}
+        ],
+        "output_items": ["opencomputers:shredder"],
+        "duration": 200,
+        "power": 100
+      }
+    )
+})
+// kubejsstudio custom: opencomputers:quadgraphicscard
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'opencomputers:recipe/quadgraphicscard',
+      {
+        "type": "hbm:soldering",
+        "output": "opencomputers:quadgraphicscard",
+        "duration": 500,
+        "consumption": 1000,
+        "toppings": [
+          {"ingredient":"opencomputers:graphicscard2","count":4},
+          {"ingredient":"opencomputers:ram4","count":4},
+          {"ingredient":"minecraft:nether_star","count":1}]
+      }
+    )
+})
+// kubejsstudio custom: extendedae:assembler/wireless_hub
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'extendedae:recipe/assembler/wireless_hub',
+      {
+        "type": "hbm:assembly_machine",
+        "name": "WirHub",
+        "input_items": [
+          {"ingredient":"extendedae:wireless_connect","count":1},
+          {"ingredient":"extendedae:concurrent_processor","count":4},
+          {"ingredient":"#ae2:smart_cable","count":8}
+        ],
+        "output_items": ["extendedae:wireless_hub"],
+        "duration": 200,
+        "power": 100
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/item_storage_components_cell_1k_part
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/item_storage_components_cell_1k_part',
+      {
+        "type": "hbm:soldering",
+        "output": "ae2:cell_component_1k",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:certus_quartz_crystal","count":8},
+          {"ingredient":"hbm:ingot_tcalloy","count":1}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/item_storage_components_cell_4k_part
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/item_storage_components_cell_4k_part',
+      {
+        "type": "hbm:soldering",
+        "output": "ae2:cell_component_4k",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:certus_quartz_crystal","count":8},
+          {"ingredient":"ae2:cell_component_1k","count":3}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/item_storage_components_cell_16k_part
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/item_storage_components_cell_16k_part',
+      {
+        "type": "hbm:soldering",
+        "output": "ae2:cell_component_16k",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:certus_quartz_crystal","count":8},
+          {"ingredient":"ae2:cell_component_4k","count":3}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/item_storage_components_cell_64k_part
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/item_storage_components_cell_64k_part',
+      {
+        "type": "hbm:soldering",
+        "output": "ae2:cell_component_64k",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:certus_quartz_crystal","count":8},
+          {"ingredient":"ae2:cell_component_16k","count":3}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/item_storage_components_cell_256k_part
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/item_storage_components_cell_256k_part',
+      {
+        "type": "hbm:soldering",
+        "output": "ae2:cell_component_256k",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:certus_quartz_crystal","count":8},
+          {"ingredient":"ae2:cell_component_64k","count":3}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
+})
+// kubejsstudio custom: megacells:cells/cell_component_1m
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'megacells:recipe/cells/cell_component_1m',
+      {
+        "type": "hbm:soldering",
+        "output": "megacells:cell_component_1m",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:certus_quartz_crystal","count":8},
+          {"ingredient":"ae2:cell_component_256k","count":3}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
+})
+// kubejsstudio custom: megacells:cells/cell_component_4m
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'megacells:recipe/cells/cell_component_4m',
+      {
+        "type": "hbm:soldering",
+        "output": "megacells:cell_component_4m",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:certus_quartz_crystal","count":8},
+          {"ingredient":"megacells:cell_component_1m","count":3}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
+})
+// kubejsstudio custom: megacells:cells/cell_component_16m
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'megacells:recipe/cells/cell_component_16m',
+      {
+        "type": "hbm:soldering",
+        "output": "megacells:cell_component_16m",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:certus_quartz_crystal","count":8},
+          {"ingredient":"megacells:cell_component_4m","count":3}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
+})
+// kubejsstudio custom: megacells:cells/cell_component_64m
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'megacells:recipe/cells/cell_component_64m',
+      {
+        "type": "hbm:soldering",
+        "output": "megacells:cell_component_64m",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:certus_quartz_crystal","count":8},
+          {"ingredient":"megacells:cell_component_16m","count":3}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
+})
+// kubejsstudio custom: megacells:cells/cell_component_256m
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'megacells:recipe/cells/cell_component_256m',
+      {
+        "type": "hbm:soldering",
+        "output": "megacells:cell_component_256m",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:certus_quartz_crystal","count":8},
+          {"ingredient":"megacells:cell_component_64m","count":3}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/spatial_components
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/spatial_components',
+      {
+        "type": "hbm:soldering",
+        "output": "ae2:spatial_cell_component_2",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:fluix_pearl","count":8},
+          {"ingredient":"hbm:nugget_technetium","count":2}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/spatial_components_0
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/spatial_components_0',
+      {
+        "type": "hbm:soldering",
+        "output": "ae2:spatial_cell_component_16",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:fluix_pearl","count":8},
+          {"ingredient":"ae2:spatial_cell_component_2","count":3}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
+})
+// kubejsstudio custom: ae2:network/cells/spatial_components_1
+ServerEvents.generateData('after_mods', event => {
+    event.json(
+      'ae2:recipe/network/cells/spatial_components_1',
+      {
+        "type": "hbm:soldering",
+        "output": "ae2:spatial_cell_component_128",
+        "duration": 100,
+        "consumption": 150,
+        "toppings": [
+          {"ingredient":"hbm:plate_polymer","count":16},
+          {"ingredient":"ae2:fluix_pearl","count":8},
+          {"ingredient":"ae2:spatial_cell_component_16","count":3}
+        ],
+        "solder": [{"material":"lead","shape":"wire","count":32}]
+      }
+    )
 })
