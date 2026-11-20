@@ -236,11 +236,11 @@
     "comment5": "The first entry in the list is the registered fluid name, while the second entry will be the displayed name.  Only use the first name, as the second name changes based on game language settings.",
     "fuels": {
       "diesel": {
-        "creosote": 0.7,
         "diesel": 1.0,
-        "lava": 1.0,
-        "oil": 0.5,
-        "biodiesel": 0.8
+        "biodiesel": 0.8,
+        "diesel_crack": 1.2,
+        "diesel_reform": 1.4,
+        "diesel_crack_reform": 1.6
       },
       "furnace": {
         "lava": 1.0
@@ -249,11 +249,10 @@
         "lava": 1.0
       },
       "avgas": {
-        "lava": 1.0,
-        "gasoline": 1.0
+        "kerosene": 1.0,
+        "kerosene_reform": 1.5
       },
       "gasoline": {
-        "lava": 1.0,
         "gasoline": 1.0,
         "ethanol": 0.85
       }

@@ -1,17 +1,17 @@
-filename = 'gemrender-0.1.20.jar'
+filename = 'gemrender-0.1.22.jar'
 name = 'GemRender'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'GemRender 0.1.20 (NeoForge 1.21.1)'
+x-prismlauncher-version-number = 'GemRender 0.1.22 (NeoForge 1.21.1)'
 
 [download]
-hash = 'b5df18cb60d22d105f3e125369ef1b181a9c7007'
+hash = '2f3b4b4f38e65c611e60c305597fff0a39477b97'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9366684
+file-id = 9668087
 project-id = 1735539
